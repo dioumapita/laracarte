@@ -18,6 +18,9 @@
         footer{
            margin-top: 100px;
         }
+        .row{
+            padding-top: 50px;
+        }
     </style>
 </head>
 <body>

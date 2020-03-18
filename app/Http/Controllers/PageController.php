@@ -17,5 +17,5 @@ class PageController extends Controller
     {
         return view('mes_pages.about');
     }
-    
+  
 }

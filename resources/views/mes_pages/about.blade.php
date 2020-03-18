@@ -4,7 +4,7 @@
         
         @section('content')
             <div class="container">
-                <h2>What is laracarte ???</h2>
+                <h2>What is {{ config('app.name') }} ???</h2>
                 <p>
                     laracarte est une application cloner de
                     <a href="#">Laramap.com</a>
@@ -26,12 +26,12 @@
                 <hr>
 
                 <h2>What is laramap ???</h2>
-                    <p>Laramap est le site web qui à inspirer laracarte.</p>
+                    <p>Laramap est le site web qui à inspirer {{ config('app.name') }}.</p>
                     <p>Plus dinformations <a href="#">cliquez ici</a></p>
                 
                 <hr>
                 
-                <h2>Quels sont les outils et services utilisés dans laracarte ???</h2>
+                <h2>Quels sont les outils et services utilisés dans {{ config('app.name') }} ???</h2>
                     <p>
                         Fondamentalement, il est construit sur laravel et bootstrap.
                         Mais il y a un tas de services utilisés pour le courrier électronique et dautres sections

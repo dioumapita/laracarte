@@ -1,6 +1,6 @@
 {{-- on herite du layout app --}}
     
-    @extends('layouts.app')
+    @extends('layouts.app',['title' =>'about'])
         
         @section('content')
             <div class="container">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <p>Nhesiter à contribuer à lamerioration du 
-                    <a href="">code source</a>
+                    <a href="https://github.com/dioumapita/laracarte">code source</a>
                 </p>
 
                 <hr>

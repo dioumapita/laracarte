@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
     <!-- Google-fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
-    <title>Laracarte</title>
+    <title>{{ page_title($title) }}</title>
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
